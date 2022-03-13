@@ -788,7 +788,7 @@ footer {
   .project-preview {
     display: block;
     text-align: center;
-    padding: 10px 20px;
+   
     justify-content: center;
       height: 100%;
      width: 100%;
@@ -814,7 +814,7 @@ footer {
 .carousel {
   width: 100%;
   height: 70vh;
-  padding: 20px;
+  padding: 10px;
 }
   #carouselExampleCaptions {
     width: 100%;
