@@ -784,11 +784,17 @@ footer {
   .project-preview {
     display: block;
     text-align: center;
-    padding: 10px 0px;
+    padding: 10px 20px;
     justify-content: center;
-   height: 70vh;
+      height: 100%;
+     width: 100%;
+      margin-top: 40px;
+     object-fit: cover;
   }
-
+.project-preview header{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
   .carousel-item {
     height: 100%;
     width: 100%;
@@ -797,11 +803,15 @@ footer {
   }
 
   .carousel-item img {
-    height: 100%;
-    width: 100%;
+    height: 95%;
+    width: 95%;
     object-fit: cover;
   }
-
+.carousel {
+  width: 100%;
+  height: 70vh;
+  padding: 20px;
+}
   #carouselExampleCaptions {
     width: 100%;
     height: 90%;
